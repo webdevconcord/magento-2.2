@@ -11,12 +11,10 @@ define(
     ) {
         'use strict';
         rendererList.push(
-           
             {
                 type: 'concordpay',
                 component: 'Concordpay_Payment/js/view/payment/method-renderer/concordpay-method'
             }
-            
         );
         return Component.extend({});
     }

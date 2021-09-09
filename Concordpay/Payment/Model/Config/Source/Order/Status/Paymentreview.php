@@ -14,6 +14,4 @@ class Paymentreview extends Status
      * @var string[]
      */
     protected $_stateStatuses = [Order::STATE_PAYMENT_REVIEW];
-
-    
 }
